@@ -1,0 +1,292 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower");
+@import url("https://fonts.googleapis.com/css?family=Oswald:200");
+
+body {
+  font-family: "Indie Flower", cursive;
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/937765/seamless_paper_texture.png);
+}
+
+.scrapbook {
+  width: 590px;
+  height: 790px;
+}
+
+.scrapbook2 {
+  width: 590px;
+  height: 790px;
+  background-image: url('./img/cover2.png') !important;
+}
+
+.scrapbook4 {
+  width: 590px;
+  height: 790px;
+  background-image: url('./img/cover4.png') !important;
+}
+
+.scrapbook3 {
+  width: 590px;
+  height: 790px;
+  background-image: url('./img/cover3.png') !important;
+}
+
+.l {
+  border-top-left-radius: 80px 5px;
+  border-bottom-left-radius: 80px 5px;
+}
+
+.r {
+  border-top-right-radius: 80px 5px;
+  border-bottom-right-radius: 80px 5px;
+}
+
+.hard {
+  font-size: 150%;
+  font-family: "Fjalla One", cursive;
+  color: rgb(236, 165, 165) !important;
+  box-shadow: 0 0 10px #999;
+  border-top-left-radius: 0px !important;
+  background-color: red !important;
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/937765/black_paper.png) !important; 
+  /*background-image: url('./img/cover.png') !important;*/
+  text-align: center;
+  color: rgb(252, 245, 245);
+  height: 610px;
+}
+
+.hard1 {
+  font-size: 150%;
+  font-family: "Fjalla One", cursive;
+  color: rgb(236, 165, 165) !important;
+  box-shadow: 0 0 10px #999;
+  border-top-left-radius: 0px !important;
+  background-color: red !important;
+  /*background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/937765/black_paper.png) !important; */
+  background-image: url('./img/cover.png') !important;
+  text-align: center;
+  color: rgb(252, 245, 245);
+  height: 610px;
+}
+
+.hard h2 {
+  font-size: 80%;
+  font-family: "Oswald", cursive;
+  color: rgb(255, 255, 255);
+}
+.hard h3 {
+  font-size: 100%;
+  font-family: "Indie Flower", cursive;
+  color: rgb(255, 255, 255);
+}
+
+.hard h4 {
+  font-family: "Indie Flower", cursive;
+  color: rgb(255, 255, 255);
+}
+
+#magazine {
+  margin: auto;
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/937765/seamless_paper_texture.png) !important;
+}
+#magazine .page {
+  z-index: 1000 !important;
+  background-color: grey;
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/937765/linedpaper.png);
+  border: solid 1px grey;
+}
+#magazine .page .top-margin {
+  height: 14px;
+}
+#magazine .page p {
+  margin: 0px;
+  margin-top: 1px;
+  margin-left: 10px;
+}
+
+#magazine .turn-page {
+  background-color: #ccc;
+}
+
+#magazine .shadow {
+  position: relative;
+  box-shadow: 0 4px 10px #666;
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/937765/black_paper.png); 
+  z-index: -1000 !important;
+}
+
+
+.pic5 {
+  position: absolute;
+  background-image: url('./img/pic5.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 260px;
+  width: 250px;
+  top: 500px;
+  left: 150px;
+  
+  
+  
+}
+
+.pic5:after {
+  width: 100px;
+  height: 30px;
+  opacity: 0.7;
+  right: 170px;
+  top: 10px;
+  position: absolute;
+  content: "";
+  background: rgb(151, 92, 81);
+  transform: skew(35deg, -35deg);
+}
+
+.pic4 {
+  position: absolute;
+  background-image: url('./img/pic4.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  right: 50px;
+  height: 390px;
+  top: 180px;
+  border: solid 15px white;
+  box-shadow: 0 4px 10px lightgrey;
+  width: 220px;
+  transform: skew(-7deg, 7deg);
+}
+
+.pic3 {
+  position: absolute;
+  background-image: url('./img/pic3.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 330px;
+  width: 186px;
+  top: 180px;
+  left: 50px;
+  border: solid 15px white;
+  box-shadow: 0 4px 10px lightgrey;
+  transform: skew(7deg, -7deg);
+}
+
+
+
+
+
+.pic2 {
+  width: 370px;
+  margin-left: 300px;
+  height: 300px;
+  /* background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/937765/londonbridge-620x413.jpg);*/
+  background-image: url('./img/pic2.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: skew(-15deg, 15deg);
+}
+
+.pic1 {
+  margin: 10px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url('./img/pic1.jpg');
+  border: solid 20px white;
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 350px;
+  height: 198px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: skew(15deg, -15deg);
+}
+
+.red-marker {
+  color: #990000;
+  font-weight: bold;
+}
+
+.blue-marker {
+  color: blue;
+  font-weight: bold;
+}
+
+.skew-3 {
+  position: absolute;
+  bottom: 100px;
+  right: 40px;
+  transform: skew(15deg, -15deg);
+}
+
+.skew-2 {
+  margin-left: 380px;
+  transform: skew(-15deg, 15deg);
+}
+
+.us {
+  position: absolute;
+  left: 100px;
+  top: 50px;
+  width: 400px;
+  height: 265px;
+  background-image: url('./img/us.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+  transform: skew(-4deg, 4deg);
+}
+.us:before {
+  width: 90px;
+  height: 25px;
+  opacity: 0.7;
+  left: -20px;
+  bottom: 0px;
+  position: absolute;
+  content: "";
+  background: rgb(189, 119, 107);
+  transform: skew(-45deg, 45deg);
+}
+.us:after {
+  width: 90px;
+  height: 25px;
+  opacity: 0.7;
+  right: -10px;
+  top: 16px;
+  position: absolute;
+  content: "";
+  background: rgb(189, 119, 107);
+  transform: skew(-45deg, 45deg);
+}
+
+.us2 {
+  position: absolute;
+  left: 80px;
+  bottom: 50px;
+  width: 260px;
+  height: 350px;
+  background-image: url('./img/us2.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+  transform: skew(6deg, -6deg);
+}
+.us2:before {
+  width: 90px;
+  height: 25px;
+  opacity: 0.7;
+  left: -20px;
+  top: 0px;
+  position: absolute;
+  content: "";
+  background: rgb(151, 92, 81);
+  transform: skew(45deg, -45deg);
+}
+.us2:after {
+  width: 90px;
+  height: 25px;
+  opacity: 0.7;
+  right: -10px;
+  bottom: 16px;
+  position: absolute;
+  content: "";
+  background: rgb(151, 92, 81);
+  transform: skew(45deg, -45deg);
+}
+
