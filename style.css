@@ -29,6 +29,22 @@ body {
   background-image: url('./img/cover3.png') !important;
 }
 
+.scrapbook5 {
+  width: 590px;
+  height: 790px;
+  background-image: url('./img/cover5.png') !important;
+}
+.scrapbook6 {
+  width: 590px;
+  height: 790px;
+  background-image: url('./img/cover6.png') !important;
+}
+.scrapbook7 {
+  width: 590px;
+  height: 790px;
+  background-image: url('./img/cover7.png') !important;
+}
+
 .l {
   border-top-left-radius: 80px 5px;
   border-bottom-left-radius: 80px 5px;
@@ -290,3 +306,15 @@ body {
   transform: skew(45deg, -45deg);
 }
 
+.us3 {
+  position: absolute;
+  left: 80px;
+  bottom: 50px;
+  width: 500px;
+  height: 600px;
+  background-image: url('./img/us3.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+  
+}
