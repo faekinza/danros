@@ -11,6 +11,18 @@ body {
   height: 790px;
 }
 
+.scrapbook0 {
+  width: 590px;
+  height: 790px;
+  background-image: url('./img/cover0.png') !important;
+}
+
+.scrapbook1 {
+  width: 590px;
+  height: 790px;
+  background-image: url('./img/cover1.png') !important;
+}
+
 .scrapbook2 {
   width: 590px;
   height: 790px;
@@ -21,6 +33,28 @@ body {
   width: 590px;
   height: 790px;
   background-image: url('./img/cover4.png') !important;
+}
+
+.scrapbook41 {
+  width: 590px;
+  height: 790px;
+  background-image: url('./img/cover4.1.png') !important;
+}
+.scrapbook42 {
+  width: 590px;
+  height: 790px;
+  background-image: url('./img/cover4.2.png') !important;
+}
+.scrapbook43 {
+  width: 590px;
+  height: 790px;
+  background-image: url('./img/cover4.3.png') !important;
+}
+
+.scrapbook44 {
+  width: 590px;
+  height: 790px;
+  background-image: url('./img/cover4.4.png') !important;
 }
 
 .scrapbook3 {
