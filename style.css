@@ -371,3 +371,15 @@ body {
   
   
 }
+.kid {
+  position: absolute;
+  left: 80px;
+  bottom: 50px;
+  width: 500px;
+  height: 600px;
+  background-image: url('./img/kid.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+  
+}
