@@ -78,6 +78,25 @@ body {
   height: 790px;
   background-image: url('./img/cover7.png') !important;
 }
+.scrapbook8 {
+  width: 590px;
+  height: 790px;
+  background-image: url('./img/hike.png') !important;
+}
+.scrapbook9 {
+  width: 590px;
+  height: 790px;
+  background-image: url('./img/end.png') !important;
+}
+.scrapbook10 {
+  width: 590px;
+  height: 790px;
+  background-image: url('./img/white.png') !important;
+}.scrapbook11 {
+  width: 590px;
+  height: 790px;
+  background-image: url('./img/lastlet.png') !important;
+}
 
 .l {
   border-top-left-radius: 80px 5px;
